@@ -10,7 +10,6 @@ int main() {
     int a, b, c;
 
     cout << "Input: ";
-    cin >> a >> b >> c;
 
     // determine value of discriminant
     double root = pow(b, 2) - (4 * a * c);
