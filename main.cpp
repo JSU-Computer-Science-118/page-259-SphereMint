@@ -18,7 +18,9 @@ int main() {
     double rootA = (-b + sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
     double rootB = (-b - sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
 
-    if (root > 0) { 
+    if (a == 0) {
+        cout << "Invalid entry" << endl;
+    } else if (root > 0) { 
         cout << "Two real roots" << endl;
         cout << "- First root " << rootA << endl << "- Second root " << rootB << endl;
     } else if (root < 0) {
