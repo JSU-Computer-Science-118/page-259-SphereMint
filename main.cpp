@@ -16,8 +16,8 @@ int main() {
     double root = pow(b, 2) - (4 * a * c);
 
     // check if there are roots
-    int rootA = (-b + sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
-    int rootB = (-b - sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
+    double rootA = (-b + sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
+    double rootB = (-b - sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
 
     if (root > 0) { 
         cout << "Output: " << endl << "Two real roots" << endl;
