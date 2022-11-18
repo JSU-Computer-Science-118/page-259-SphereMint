@@ -19,12 +19,12 @@ int main() {
     double rootB = (-b - sqrt(pow(b, 2) - (4 * a * c))) / (2 * a);
 
     if (root > 0) { 
-        cout << "Output: " << endl << "Two real roots" << endl;
+        cout << "Two real roots" << endl;
         cout << "- First root " << rootA << endl << "- Second root " << rootB << endl;
     } else if (root < 0) {
-        cout << "Output: Complex roots " << endl;
+        cout << "Complex roots " << endl;
     } else {
-        cout << "Output: The single root is " << rootA << endl;
+        cout << "The single root is " << rootA << endl;
     }
 
 }
